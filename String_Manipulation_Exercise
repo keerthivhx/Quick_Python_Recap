@@ -1,0 +1,14 @@
+print("welcome to come 'String Manipulation Exercise'")
+#take the input sentence
+print("enter any memorable sentence: ")
+sentence = input()
+#lowercase
+print(f"senetnce in lowercase: {sentence.lower()}")
+#uppercase
+print(f"sentence in uppercase: {sentence.upper()}")
+#replacing the space by _
+rep=sentence.replace(" ", "_")
+print(rep)
+#Adding strip function
+remove_strip=sentence.strip()
+print(f"the strip sentence is {remove_strip}")
