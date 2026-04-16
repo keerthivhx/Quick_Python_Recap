@@ -1,0 +1,12 @@
+print("Welcome to Simple_greeting_program")
+print("enter your good name please:")
+name=input()
+age=int(input("enter ypur age:"))
+print(f"hello{name}")
+if age==18:
+    print("you are eligible for voting")
+elif age<=25:
+    print("your perfect for making the desicion")
+else:
+    print("oops you are not eligible for voting")
+    exit()
