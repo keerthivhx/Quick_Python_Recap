@@ -12,3 +12,26 @@ b_name=input("enter a boy name:")
 print(" ".join(f"{b_name}loves{g_name}"))
 print(f"{b_name}loves{g_name}".split())
 print(f"    {b_name} loves {g_name}   ".strip())
+#There are diffrent string methodes are there like upper(),lower(),title(),capitalize() etc
+"""
+text = " Hello World! "
+# Case conversion
+print(text.upper()) # ' HELLO WORLD! '
+print(text.lower()) # ' hello world! '
+print(text.title()) # ' Hello World! '
+# Trimming whitespace
+print(text.strip()) # 'Hello World!'
+print(text.lstrip()) # 'Hello World! '
+print(text.rstrip()) # ' Hello World!'
+# Search and replace
+print(text.find("World")) # 8
+print(text.replace("World", "Python")) # ' Hello Python! '
+# Checks
+print("abc123".isalnum()) # True
+print("abc".isalpha()) # True
+print("123".isdigit()) # True
+# Joining and splitting
+words = ["Python", "is", "fun"]
+print(" ".join(words)) # 'Python is fun'
+print("one,two,three".split(",")) # ['one', 'two', 'three']
+"""
