@@ -24,13 +24,21 @@ If none of these times, print "It's not meal time."
 Simple Eligibility Check:"""
 print("welcome to daily meal time table")
 time=input("enter your current time so that i can suggets type of meals with AM/PM:")
-if time<="8AM":
+if time=="8AM":
     print("Breakfast time")
-elif time<="1PM":
+elif time=="1PM":
     print("Lunch time")
-elif time<="8PM":
+elif time=="8PM":
     print("Dinner time")
 else:
     print("it's ur snake time")
-
-
+"""Write a program that checks whether a person is eligible for a library membership. If they are under 18, they get a student membership. If they are 60 or older, they get a senior citizen membership. Otherwise, they get a regular membership.
+"""
+print("Welcome to the library membership checker")
+age=int(input("Enter your age:"))
+if age<18:
+    print("You are eligible for a student membership.")
+elif age>=60:
+    print("You are eligible for a senior citizen membership.")
+else:
+    print("You are eligible for a regular membership.")
